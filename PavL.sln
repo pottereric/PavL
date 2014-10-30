@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PavL.Client", "PavL.Client\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PavLClientConsole", "PavLClientConsole\PavLClientConsole.csproj", "{1E3006DD-55C6-4000-A391-55814A953C18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PavLClientFile", "PavLClientFile\PavLClientFile.csproj", "{1AB74CC6-98B7-4B49-B2D4-EFDA7EBD470D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1E3006DD-55C6-4000-A391-55814A953C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E3006DD-55C6-4000-A391-55814A953C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E3006DD-55C6-4000-A391-55814A953C18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AB74CC6-98B7-4B49-B2D4-EFDA7EBD470D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB74CC6-98B7-4B49-B2D4-EFDA7EBD470D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB74CC6-98B7-4B49-B2D4-EFDA7EBD470D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB74CC6-98B7-4B49-B2D4-EFDA7EBD470D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
