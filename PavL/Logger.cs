@@ -20,6 +20,8 @@ namespace PavL
                 return _broadcaster;
             }
         }
+
+        // TODO: change this to take a log item as a param
         public static void Log(string summary, string description)
         {
             Broadcaster.SendMessage(summary);

@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PavLClientConsole", "PavLCl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PavLClientFile", "PavLClientFile\PavLClientFile.csproj", "{1AB74CC6-98B7-4B49-B2D4-EFDA7EBD470D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PavL.Common", "PavL.Common\PavL.Common.csproj", "{A18DEACC-134B-49E0-A1D3-4138714605A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PavL.Common_UnitTests", "PavL.Common_UnitTests\PavL.Common_UnitTests.csproj", "{6844E327-C40E-4FC4-A46A-0E84DBEBC0DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{1AB74CC6-98B7-4B49-B2D4-EFDA7EBD470D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AB74CC6-98B7-4B49-B2D4-EFDA7EBD470D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AB74CC6-98B7-4B49-B2D4-EFDA7EBD470D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A18DEACC-134B-49E0-A1D3-4138714605A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A18DEACC-134B-49E0-A1D3-4138714605A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A18DEACC-134B-49E0-A1D3-4138714605A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A18DEACC-134B-49E0-A1D3-4138714605A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6844E327-C40E-4FC4-A46A-0E84DBEBC0DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6844E327-C40E-4FC4-A46A-0E84DBEBC0DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6844E327-C40E-4FC4-A46A-0E84DBEBC0DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6844E327-C40E-4FC4-A46A-0E84DBEBC0DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

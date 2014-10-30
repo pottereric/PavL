@@ -10,7 +10,6 @@ namespace PavL.Client
 {
     class UdpListener : IDisposable
     {
-        // todo generate an event to raise when something is received or take a lambda
 
         private IPAddress broadcastIpAddress;
         private UdpClient udpClient;
@@ -30,7 +29,6 @@ namespace PavL.Client
 
         public void Listen(Action<string> action)
         {
-        // todo generate an event to raise when something is received or take a lambda
             IPEndPoint RemoteIpEndPoint = new IPEndPoint(IPAddress.Any, 0);
             string message = String.Empty;
             do
